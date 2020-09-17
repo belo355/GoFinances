@@ -1,0 +1,4 @@
+[0915/173818.304:ERROR:minidumpwritedump_with_crashpad_info.cc(452)] Failed to call MiniDumpWriteDump: Não há suporte para esta interface (0x80004002)
+[0915/173818.305:ERROR:minidumpwritedump_with_crashpad_info.cc(661)] Failed to write minidump file
+[0915/173818.305:ERROR:crash_report_exception_handler.cc(132)] TryMiniDumpWriteDumpWithCrashpadInfo failed
+[0915/173818.311:ERROR:process_info.cc(359)] UncheckedAllocate

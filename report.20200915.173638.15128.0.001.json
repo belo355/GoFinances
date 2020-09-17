@@ -1,0 +1,485 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200915.173638.15128.0.001.json",
+    "dumpEventTime": "2020-09-15T17:36:38Z",
+    "dumpEventTimeStamp": "1600202198744",
+    "processId": 15128,
+    "cwd": "C:\\Users\\edils\\git\\FRONTEND\\GoFinances",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\edils\\git\\FRONTEND\\GoFinances\\node_modules\\react-app-rewired\\scripts\\start.js"
+    ],
+    "nodejsVersion": "v12.16.1",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.16.1",
+      "v8": "7.8.279.23-node.31",
+      "uv": "1.34.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.1/node-v12.16.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.1/node-v12.16.1.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.16.1/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18362",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i3-8100 CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 3432609,
+        "nice": 0,
+        "sys": 1599515,
+        "idle": 12159250,
+        "irq": 259109
+      },
+      {
+        "model": "Intel(R) Core(TM) i3-8100 CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 3983687,
+        "nice": 0,
+        "sys": 1209125,
+        "idle": 11998250,
+        "irq": 25203
+      },
+      {
+        "model": "Intel(R) Core(TM) i3-8100 CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 3846109,
+        "nice": 0,
+        "sys": 1130203,
+        "idle": 12214750,
+        "irq": 20171
+      },
+      {
+        "model": "Intel(R) Core(TM) i3-8100 CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 4075859,
+        "nice": 0,
+        "sys": 1196781,
+        "idle": 11918421,
+        "irq": 21156
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Ethernet",
+        "internal": false,
+        "mac": "70:85:c2:86:68:e4",
+        "address": "fe80::281e:6155:806e:bafb",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 7
+      },
+      {
+        "name": "Ethernet",
+        "internal": false,
+        "mac": "70:85:c2:86:68:e4",
+        "address": "192.168.1.5",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "vEthernet (Default Switch)",
+        "internal": false,
+        "mac": "00:15:5d:94:7f:bd",
+        "address": "fe80::d0f5:87c1:f2c6:752d",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 19
+      },
+      {
+        "name": "vEthernet (Default Switch)",
+        "internal": false,
+        "mac": "00:15:5d:94:7f:bd",
+        "address": "192.168.233.1",
+        "netmask": "255.255.255.240",
+        "family": "IPv4"
+      }
+    ],
+    "host": "DESKTOP-JCSQ9CU"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff7617419f9",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff761745e1c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff761744dd8",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7618434cb",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff762059f4e",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff762042021",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff761f0e57c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff761f16521",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff761f0bb13",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff761f0a184",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff761f2b36d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff761c90c51",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7624a4ddd",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff762485219",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7624923c2",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00000050fe89ba52",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 169955328,
+    "totalCommittedMemory": 169955328,
+    "usedMemory": 158694176,
+    "availableMemory": 2039204200,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 32808,
+        "used": 32808,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1047456,
+        "used": 1047432,
+        "available": 24
+      },
+      "old_space": {
+        "memorySize": 109461504,
+        "committedMemory": 109461504,
+        "capacity": 109094520,
+        "used": 100573056,
+        "available": 8521464
+      },
+      "code_space": {
+        "memorySize": 3313664,
+        "committedMemory": 3313664,
+        "capacity": 3149280,
+        "used": 2328064,
+        "available": 821216
+      },
+      "map_space": {
+        "memorySize": 4198400,
+        "committedMemory": 4198400,
+        "capacity": 4192232,
+        "used": 3238160,
+        "available": 954072
+      },
+      "large_object_space": {
+        "memorySize": 51048448,
+        "committedMemory": 51048448,
+        "capacity": 50930368,
+        "used": 50930368,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 622592,
+        "committedMemory": 622592,
+        "capacity": 544288,
+        "used": 544288,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047456,
+        "used": 0,
+        "available": 1047456
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 29.625,
+    "kernelCpuSeconds": 4.421,
+    "cpuConsumptionPercent": 0.43919,
+    "maxRss": 281210880,
+    "pageFaults": {
+      "IORequired": 565538,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 8293,
+      "writes": 144
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=C:": "C:\\Users\\edils\\git\\FRONTEND\\GoFinances",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "ANDROID_HOME": "C:\\Program Files (x86)\\Java\\jdk1.8.0_211\\",
+    "APPDATA": "C:\\Users\\edils\\AppData\\Roaming",
+    "BABEL_ENV": "development",
+    "ChocolateyInstall": "C:\\ProgramData\\chocolatey",
+    "ChocolateyLastPathUpdate": "132294383082469976",
+    "COLORTERM": "truecolor",
+    "COMMONPROGRAMFILES": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "DESKTOP-JCSQ9CU",
+    "COMSPEC": "C:\\Windows\\system32\\cmd.exe",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "EXEPATH": "C:\\Program Files\\Git\\bin",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "GIT_ASKPASS": "d:\\Users\\edils\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh",
+    "GOPATH": "C:\\Users\\edils\\go",
+    "HOME": "C:\\Users\\edils",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\edils",
+    "INIT_CWD": "C:\\Users\\edils\\git\\FRONTEND\\GoFinances",
+    "JAVA_HOME": "C:\\Program Files (x86)\\Java\\jdk1.8.0_211\\",
+    "LANG": "pt_BR.UTF-8",
+    "LOCALAPPDATA": "C:\\Users\\edils\\AppData\\Local",
+    "LOGONSERVER": "\\\\DESKTOP-JCSQ9CU",
+    "MAVEN_HOME": "C:\\Program Files (x86)\\Java\\jdk1.8.0_211\\",
+    "MSYSTEM": "MINGW64",
+    "NODE": "C:\\Program Files\\nodejs\\node.exe",
+    "NODE_ENV": "development",
+    "NODE_PATH": "",
+    "npm_config_argv": "{\"remain\":[],\"cooked\":[\"run\",\"start\"],\"original\":[\"start\"]}",
+    "npm_config_bin_links": "true",
+    "npm_config_ignore_optional": "",
+    "npm_config_ignore_scripts": "",
+    "npm_config_init_license": "MIT",
+    "npm_config_init_version": "1.0.0",
+    "npm_config_registry": "https://registry.yarnpkg.com",
+    "npm_config_save_prefix": "^",
+    "npm_config_strict_ssl": "true",
+    "npm_config_user_agent": "yarn/1.22.4 npm/? node/v12.16.1 win32 x64",
+    "npm_config_version_commit_hooks": "true",
+    "npm_config_version_git_message": "v%s",
+    "npm_config_version_git_sign": "",
+    "npm_config_version_git_tag": "true",
+    "npm_config_version_tag_prefix": "v",
+    "npm_execpath": "D:\\Program Files (x86)\\Yarn\\bin\\yarn.js",
+    "npm_lifecycle_event": "start",
+    "npm_lifecycle_script": "react-app-rewired start",
+    "npm_node_execpath": "C:\\Program Files\\nodejs\\node.exe",
+    "npm_package_browserslist_development_0": "last 1 chrome version",
+    "npm_package_browserslist_development_1": "last 1 firefox version",
+    "npm_package_browserslist_development_2": "last 1 safari version",
+    "npm_package_browserslist_production_0": ">0.2%",
+    "npm_package_browserslist_production_1": "not dead",
+    "npm_package_browserslist_production_2": "not op_mini all",
+    "npm_package_dependencies_axios": "^0.19.2",
+    "npm_package_dependencies_filesize": "^6.1.0",
+    "npm_package_dependencies_history": "^4.10.1",
+    "npm_package_dependencies_polished": "^3.5.2",
+    "npm_package_dependencies_react": "^16.13.1",
+    "npm_package_dependencies_react_dom": "^16.13.1",
+    "npm_package_dependencies_react_dropzone": "^10.2.2",
+    "npm_package_dependencies_react_router_dom": "^5.1.2",
+    "npm_package_dependencies_react_scripts": "3.4.1",
+    "npm_package_dependencies_styled_components": "^5.1.0",
+    "npm_package_dependencies_typescript": "~3.7.2",
+    "npm_package_devDependencies_axios_mock_adapter": "^1.18.1",
+    "npm_package_devDependencies_eslint": "^6.8.0",
+    "npm_package_devDependencies_eslint_config_airbnb": "^18.1.0",
+    "npm_package_devDependencies_eslint_config_prettier": "^6.10.1",
+    "npm_package_devDependencies_eslint_import_resolver_typescript": "^2.0.0",
+    "npm_package_devDependencies_eslint_plugin_import": "^2.20.1",
+    "npm_package_devDependencies_eslint_plugin_jsx_a11y": "^6.2.3",
+    "npm_package_devDependencies_eslint_plugin_prettier": "^3.1.3",
+    "npm_package_devDependencies_eslint_plugin_react": "^7.19.0",
+    "npm_package_devDependencies_eslint_plugin_react_hooks": "^2.5.0",
+    "npm_package_devDependencies_prettier": "^2.0.4",
+    "npm_package_devDependencies_react_app_rewired": "^2.1.5",
+    "npm_package_devDependencies_ts_jest": "^25.4.0",
+    "npm_package_devDependencies__testing_library_jest_dom": "^4.2.4",
+    "npm_package_devDependencies__testing_library_react": "^9.3.2",
+    "npm_package_devDependencies__testing_library_user_event": "^7.1.2",
+    "npm_package_devDependencies__typescript_eslint_eslint_plugin": "^2.28.0",
+    "npm_package_devDependencies__typescript_eslint_parser": "^2.28.0",
+    "npm_package_devDependencies__types_axios": "^0.14.0",
+    "npm_package_devDependencies__types_jest": "^24.0.0",
+    "npm_package_devDependencies__types_node": "^12.0.0",
+    "npm_package_devDependencies__types_react": "^16.9.0",
+    "npm_package_devDependencies__types_react_dom": "^16.9.0",
+    "npm_package_devDependencies__types_react_router_dom": "^5.1.4",
+    "npm_package_devDependencies__types_styled_components": "^5.1.0",
+    "npm_package_name": "desafio-07",
+    "npm_package_private": "true",
+    "npm_package_scripts_build": "react-app-rewired build",
+    "npm_package_scripts_eject": "react-scripts eject",
+    "npm_package_scripts_start": "react-app-rewired start",
+    "npm_package_scripts_test": "react-app-rewired test",
+    "npm_package_version": "0.1.0",
+    "NUMBER_OF_PROCESSORS": "4",
+    "OneDrive": "C:\\Users\\edils\\OneDrive",
+    "OneDriveConsumer": "C:\\Users\\edils\\OneDrive",
+    "ORIGINAL_XDG_CURRENT_DESKTOP": "undefined",
+    "OS": "Windows_NT",
+    "PATH": "C:\\Users\\edils\\AppData\\Local\\Temp\\yarn--1600194445883-0.26195288657841265;C:\\Users\\edils\\git\\FRONTEND\\GoFinances\\node_modules\\.bin;C:\\Users\\edils\\AppData\\Local\\Yarn\\Data\\link\\node_modules\\.bin;C:\\Program Files\\libexec\\lib\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Program Files\\lib\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\edils\\bin;C:\\Python27;C:\\Python27\\Scripts;C:\\Program Files\\AdoptOpenJDK\\jdk-11.0.4.11-hotspot\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files (x86)\\Java\\jdk1.8.0_211;D:\\Users\\Edilson\\flutter\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs;D:\\Program Files (x86)\\Yarn\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_211;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Git\\cmd;C:\\Go\\bin;C:\\Users\\edils\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files (x86)\\Java\\jdk1.8.0_211\\bin;C:\\Users\\edils\\eclipse\\jee-2019-06\\eclipse;D:\\Users\\edils\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;D:\\Users\\Edilson\\flutter\\bin;C:\\Users\\edils\\AppData\\Roaming\\npm;C:\\Users\\edils\\AppData\\Local\\Yarn\\bin;D:\\Program Files (x86)\\Yarn\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_211;C:\\Users\\edils\\go\\bin",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC",
+    "PLINK_PROTOCOL": "ssh",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 158 Stepping 11, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "9e0b",
+    "ProgramData": "C:\\ProgramData",
+    "PROGRAMFILES": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "PWD": "/c/Users/edils/git/FRONTEND/GoFinances",
+    "SESSIONNAME": "Console",
+    "SHLVL": "2",
+    "SYSTEMDRIVE": "C:",
+    "SYSTEMROOT": "C:\\Windows",
+    "TEMP": "C:\\Users\\edils\\AppData\\Local\\Temp",
+    "TERM_PROGRAM": "vscode",
+    "TERM_PROGRAM_VERSION": "1.48.2",
+    "TMP": "C:\\Users\\edils\\AppData\\Local\\Temp",
+    "USERDOMAIN": "DESKTOP-JCSQ9CU",
+    "USERDOMAIN_ROAMINGPROFILE": "DESKTOP-JCSQ9CU",
+    "USERNAME": "edils",
+    "USERPROFILE": "C:\\Users\\edils",
+    "VSCODE_GIT_ASKPASS_MAIN": "d:\\Users\\edils\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js",
+    "VSCODE_GIT_ASKPASS_NODE": "D:\\Users\\edils\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "VSCODE_GIT_IPC_HANDLE": "\\\\.\\pipe\\vscode-git-00ddf29bac-sock",
+    "WEBPACK_DEV_SERVER": "true",
+    "WINDIR": "C:\\Windows",
+    "YARN_WRAP_OUTPUT": "false",
+    "_": "/usr/bin/winpty"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\Windows\\SYSTEM32\\ntdll.dll",
+    "C:\\Windows\\System32\\KERNEL32.DLL",
+    "C:\\Windows\\System32\\KERNELBASE.dll",
+    "C:\\Windows\\System32\\WS2_32.dll",
+    "C:\\Windows\\System32\\RPCRT4.dll",
+    "C:\\Windows\\SYSTEM32\\dbghelp.dll",
+    "C:\\Windows\\System32\\PSAPI.DLL",
+    "C:\\Windows\\System32\\ucrtbase.dll",
+    "C:\\Windows\\System32\\ADVAPI32.dll",
+    "C:\\Windows\\System32\\msvcrt.dll",
+    "C:\\Windows\\System32\\sechost.dll",
+    "C:\\Windows\\System32\\USER32.dll",
+    "C:\\Windows\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\Windows\\System32\\win32u.dll",
+    "C:\\Windows\\SYSTEM32\\USERENV.dll",
+    "C:\\Windows\\System32\\GDI32.dll",
+    "C:\\Windows\\System32\\profapi.dll",
+    "C:\\Windows\\System32\\gdi32full.dll",
+    "C:\\Windows\\System32\\msvcp_win.dll",
+    "C:\\Windows\\System32\\CRYPT32.dll",
+    "C:\\Windows\\System32\\MSASN1.dll",
+    "C:\\Windows\\System32\\bcrypt.dll",
+    "C:\\Windows\\SYSTEM32\\WINMM.dll",
+    "C:\\Windows\\SYSTEM32\\WINMMBASE.dll",
+    "C:\\Windows\\System32\\cfgmgr32.dll",
+    "C:\\Windows\\System32\\bcryptPrimitives.dll",
+    "C:\\Windows\\System32\\IMM32.DLL",
+    "C:\\Windows\\System32\\powrprof.dll",
+    "C:\\Windows\\System32\\UMPDC.dll",
+    "C:\\Windows\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\Windows\\system32\\uxtheme.dll",
+    "C:\\Windows\\System32\\combase.dll",
+    "C:\\Windows\\system32\\mswsock.dll",
+    "C:\\Windows\\System32\\kernel.appcore.dll",
+    "C:\\Windows\\System32\\NSI.dll",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\Windows\\SYSTEM32\\DNSAPI.dll",
+    "C:\\Program Files\\Bonjour\\mdnsNSP.dll",
+    "C:\\Windows\\System32\\rasadhlp.dll",
+    "C:\\Windows\\System32\\fwpuclnt.dll",
+    "C:\\Windows\\system32\\napinsp.dll",
+    "C:\\Windows\\system32\\pnrpnsp.dll",
+    "C:\\Windows\\System32\\winrnr.dll",
+    "C:\\Windows\\system32\\NLAapi.dll",
+    "C:\\Windows\\system32\\wshbth.dll"
+  ]
+}
