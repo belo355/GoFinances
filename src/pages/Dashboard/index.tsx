@@ -8,7 +8,7 @@ import api from '../../services/api';
 
 import Header from '../../components/Header';
 
-// import formatValue from '../../utils/formatValue';
+import formatValue from '../../utils/formatValue';
 
 import { Container, CardContainer, Card, TableContainer } from './styles';
 
@@ -35,10 +35,18 @@ const Dashboard: React.FC = () => {
 
   useEffect(() => {
     api.get('transactions').then(response => {
-      setTransactions(response.data);
+      const transactionFormatted = response.data.map(
+        (transaction: Transaction) => ({
+          ...transaction,
+          formattedValue: formatValue(transaction.value),
+        }),
+      );
+
+      setTransactions(transactionFormatted);
     });
 
     api.get('transactions/balance').then(response => {
+      // const balanceFormatted = formatValue(response.data);
       setBalance(response.data);
     });
   }, []);
