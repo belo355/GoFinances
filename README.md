@@ -28,3 +28,8 @@ O GoFinance é um projeto que visa um controle do financeiro, tratando valores d
 
 Você pode visualizar o layout do projeto no formato através [desse link](https://www.figma.com/file/KaF93pbo8CshfiHySuwPZc/GoFinances). Lembrando que você irá precisar ter uma conta no [Figma](http://figma.com/).
 
+##   Preview
+
+<img alt="image finance" src="https://github.com/belo355/GoFinances/blob/master/goFinance1.PNG"> 
+
+<img alt="image finance" src="https://github.com/belo355/GoFinances/blob/master/goFinance2.PNG"> 
